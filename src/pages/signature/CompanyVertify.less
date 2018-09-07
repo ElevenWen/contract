@@ -1,0 +1,176 @@
+#CompanyVertify,
+#PersonalVertify,
+#IdInfo {
+  background: #fff;
+  .ulContainer {
+    padding-top: 1.173333rem;
+    ul {
+      li {
+        height: 1.32rem;
+        line-height: 1.32rem;
+        width: 100%;
+        padding:0 0 0 0.32rem;
+        
+        .box {
+          font-size: 0.426667rem;
+          position: relative;
+          border-bottom: 1px solid #eee;
+          input{ 
+            font-size: 0.4rem; 
+          }
+          span {
+            &:nth-child(1) {
+              color: rgb(250, 40, 2);
+              margin-right: 0.053333rem;
+            }
+            &:nth-child(2) {
+              // color: rgb(250,40,2);
+            }
+            &:nth-child(4) {
+              position: absolute;
+              right: 0.4rem;
+              width: 1rem;
+              z-index: 99;
+              text-align: right;
+              img{
+                background: #fff
+              }
+            }
+            &.nameSpan {
+              position: relative;
+              padding-left: 0.853333rem;
+              z-index: 88;
+              input{
+                width:5.15rem;
+                font-size: 0.4rem;
+              }
+            }
+            img {
+              width: 0.56rem;
+              height: 0.56rem;
+              vertical-align: middle;
+            }
+            input::-webkit-input-placeholder {
+              font-size: 0.373333rem;
+            } 
+          }
+        }
+        // 点击企业查询弹出下拉框
+        .fixedWrap {
+          background: rgba(0, 0, 0, 0.2);
+          position: fixed;
+          top: 2.25rem;
+          left: 0;
+          right: 0;
+          height: 100%;
+          z-index: 99;
+        }
+        .sousouTianyancha2Wrap {
+          padding: 0 0 0 0.32rem;
+          background: #f7f7f7;
+          font-size: 0.373333rem;
+          .dataDetail {
+            height: auto;
+            padding: 0.4rem 0;
+            line-height: 1.2;
+            border-bottom: 1px solid #ccc;
+            &:nth-last-of-type(1) {
+              border: 0;
+            }
+          }
+        }
+        &.businessLi {
+          height: 6.253333rem;
+          overflow: hidden;
+          .businessP {
+            font-size: 0.32rem;
+            color: rgb(153, 153, 153);
+            height: 0.346667rem;
+            margin-top: -0.533333rem;
+            margin-left: 1.333333rem;
+          }
+          .fixTextCenter{
+            margin:0;
+            text-align: center;
+          }
+          .business {
+            width: 6.4rem;
+            height: 3.7837837837837838rem;
+            background: rgb(245, 245, 245);
+            margin: 1.027027027027027rem auto 0.27rem auto;
+            .bBox {
+              width: 100%;
+              height: 100%;
+              background: url(../../assets/images/addBusiness@3x.png) no-repeat;
+              background-size: 0.6756756756756757rem 0.6756756756756757rem;
+              background-position: 50% center;
+            }
+            .idBox {
+              background: url(../../assets/images/identity@3x.png) no-repeat;
+              background-size: 1.466667rem 0.986667rem;
+              background-position: 50% center;
+            }
+            .idBox2 {
+              background: url(../../assets/images/identityBg@3x.png) no-repeat;
+              background-size: 1.466667rem 0.986667rem;
+              background-position: 50% center;
+            }
+            input {
+              width: 65%;
+              height: 3.7837837837837838rem;
+              border: none;
+              background: transparent;
+              opacity: 0;
+              position: absolute;
+              left: 1.686667rem;
+            }
+            .picture {
+              height: 3.7837837837837838rem;
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+        }
+        &.id_Box {
+          height: 13.146667rem !important;
+          .box {
+            border: none !important;
+          }
+          .business {
+            margin: 0.2702703rem auto 1.2rem auto;
+          }
+          .text {
+            font-size: 0.346667rem;
+            color: rgb(153, 153, 153);
+            height: 0.926667rem;
+            position: absolute;
+            left: 4.16rem;
+            top: 5.333333rem;
+          }
+          .text2 {
+            top: 10.333333rem;
+          }
+        }
+      }
+    }
+  }
+  .button {
+    width: 100%;
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    color: #fff;
+    font-size: 0.453333rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    &.noHighStyle {
+      background: #d5d5d5;
+    }
+    &.highStyle {
+      background: rgb(0, 150, 255);
+    }
+  }
+  .p_button {
+    background: rgb(0, 150, 255);
+  }
+}

@@ -1,0 +1,300 @@
+#SignatureManagement {
+  height: 100%;
+  .sig{
+    padding-top: 2.286459rem !important;
+  }
+  .Signature {
+    
+    .tab {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        background: #fff;
+        font-size: 0.373333rem;
+        li {
+          &.active {
+            span {
+              display: inline-block;
+              height: 100%;
+              color: rgb(0, 150, 255);
+              border-bottom: 2px solid rgb(0, 150, 255);
+            }
+          }
+        }
+      }
+    }
+    .container {
+      height: 100%;
+      ul {
+        padding: 0 0.4rem 1.233333rem 0.4rem;
+        li {
+          margin-top: 0.4rem;
+          width: 9.2rem;
+          border-radius: 0.106667rem;
+          text-align: center;
+          div {
+            height: 5.946667rem;
+            background: #fff;
+            margin-bottom: 0.4rem;
+            padding-top: 0.346667rem;
+          }
+          .personP {
+            font-size: 0.373333rem;
+            margin-bottom: 1.226667rem;
+            color: rgb(51, 51, 51);
+          }
+          h3 {
+            font-size: 1.333333rem;
+            padding-bottom: 1.52rem;
+            border-bottom: 1px solid #eee;
+          }
+         
+          .companyP {
+            font-size: 0.373333rem;
+            margin-bottom: 0.453333rem;
+            color: rgb(51, 51, 51);
+          }
+          .imgBox {
+            width: 2.426667rem;
+            height: 2.693333rem;
+            margin: 0 auto;
+            margin-bottom: 0.666667rem;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .personTag {  
+              height: 1.253333rem;
+              line-height: 1.253333rem;
+              width: 100%;
+              position: flex;
+              -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              padding: 0 0.4rem; 
+              position: absolute;
+              bottom: 0;
+            span:nth-child(1){
+              display: inline-block;
+              width: 1.333333rem;
+              height: 0.666667rem;
+              line-height: 0.666667rem;
+              background: rgb(255, 114, 0);
+              color: #fff;
+              font-size: 0.373333rem;
+              border-radius: 0.346667rem;
+              position: absolute;
+              left: 0.43rem;
+              top: 50%;
+              margin-top: -0.333333rem; 
+            }
+              
+          } 
+          .companyTag {
+            height: 1.253333rem;
+            line-height: 1.253333rem;
+            width: 100%;
+            position: flex;
+            justify-content: space-between;
+            padding: 0 0.4rem;
+            border-top: 1px solid #eee;
+            position: absolute;
+            bottom: 0;
+            .tag {
+              display: inline-block;
+              width: 1.333333rem;
+              height: 0.666667rem;
+              line-height: 0.666667rem;
+              background: rgb(24, 187, 222);
+              color: #fff;
+              font-size: 0.373333rem;
+              border-radius: 0.346667rem;
+              position: absolute;
+              left: 0.43rem;
+              top: 50%;
+              margin-top: -0.333333rem;
+            }
+            .modify {
+              position: absolute;
+              right: 0;
+              margin-right: 0.4rem;
+              font-size: 0.373333rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bnt {
+    width: 100%;
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    font-size: 0.453333rem;
+    color: #fff;
+    background: rgb(0, 150, 255);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+  .companyR{
+    margin-left: .4rem;
+    font-size: 0.373333rem;
+  }
+  .loseR {
+    display: inline-block;
+    width: 2.666667rem;
+    position: absolute;
+    left: 1.6rem;
+    color: #000;
+    i {
+      img {
+        width: 0.48rem;
+        height: 0.48rem;
+        vertical-align: middle;
+        margin-left: 0.213333rem;
+      }
+    }
+  }
+  .loseModel {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    > div {
+      width: 7.333333rem;
+      height: 4.026667rem;
+      background: #fff;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      margin-left: -3.666667rem;
+      border-radius: 0.4rem;
+      text-align: center;
+      padding-top: 0.533333rem;
+      h3 {
+        font-size: 0.426667rem;
+        color: #000;
+        margin-bottom: 0.4rem;
+      }
+      p {
+        font-size: 0.373333rem;
+        line-height: 0.48rem;
+        color: rgb(51, 51, 51);
+      }
+      span {
+        display: inline-block;
+        height: 1.226667rem;
+        line-height: 1.226667rem;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid #eee;
+        font-size: 0.426667rem;
+        color: rgb(14, 128, 254);
+      }
+    }
+  }
+  .choiceModel {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: rgb(14, 128, 254);
+    > div {
+      position: absolute;
+      bottom: 0.266667rem;
+      left: 50%;
+      margin-left: -4.693333rem;
+      div {
+        width: 9.346667rem;
+        height: 4rem;
+        border-radius: 0.346667rem;
+        background: #fff;
+        font-size: 0.506667rem;
+      }
+      .top {
+        h4 {
+          height: 0.933333rem;
+          line-height: 0.933333rem;
+          font-size: 0.373333rem;
+          color: rgb(178, 178, 178);
+        }
+        p {
+          height: 1.546667rem;
+          line-height: 1.546667rem;
+          border-top: 1px solid #eee;
+        }
+      }
+      .bottom {
+        height: 1.52rem;
+        line-height: 1.52rem;
+        margin-top: 0.213333rem;
+      }
+    }
+  }
+  .height100 {
+    height: 100%;
+  }
+
+  .modifyP{
+    display: inline-block;
+    float: right;
+    height: 0.666667rem;
+    line-height: 1.2rem;
+    margin-right: .4rem;
+    font-size: .4rem;
+  }
+}
+
+#SignatureManagement .Signature .container ul li {
+  .companyTag {
+    margin-bottom: 0; 
+  }
+  
+}
+
+.SignatureChoiced {
+  .personTag {  
+      display: inline-block;
+      width: 1.333333rem!important;
+      height: 0.666667rem!important;
+      line-height: 0.666667rem!important;
+      background: rgb(255, 114, 0);
+      color: #fff;
+      font-size: 0.373333rem;
+      border-radius: 0.346667rem;
+      position: absolute;
+      left: 0.43rem;
+      top: 50%;
+      padding:0!important;
+      margin-top: -0.333333rem;  
+  } 
+   
+  .right {
+    padding-left: 0.626667rem;
+    float: right;
+  }
+  .commonStyle {
+    position: absolute;
+    width: 0.48rem;
+    height: 0.48rem;
+    background-size: 100%;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    .bg-image("../../assets/images/selected");
+  }
+  .highStyle {
+    .bg-image("../../assets/images/selected2");
+  }
+}
+
